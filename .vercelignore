@@ -1,0 +1,10 @@
+# Files excluded from the Vercel deployment bundle. Keep this list tight:
+# circuits/ MUST ship (includeFiles in vercel.json), and node_modules is
+# installed by Vercel (never list it here).
+tests/
+scripts/
+data/
+.env
+.env.*
+*.md
+.DS_Store
