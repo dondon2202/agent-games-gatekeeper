@@ -9,7 +9,7 @@ import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { createHmac } from "node:crypto";
-import { createServer } from "../src/server.js";
+import { createServer } from "../src/local-server.js";
 import { verifySignature } from "../src/hmac.js";
 
 const SECRET = "e2e-test-secret-32-bytes-long!!";

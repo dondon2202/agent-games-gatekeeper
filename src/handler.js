@@ -1,5 +1,5 @@
 // Transport-agnostic request pipeline shared by the local HTTP server
-// (src/server.js) and the Vercel serverless function (api/task.js).
+// (src/local-server.js) and the Vercel serverless function (api/task.js).
 //
 // Input:  { rawBody: Buffer, signatureHeader: string|undefined }
 // Output: { status: number, body: Buffer, signature: string }
