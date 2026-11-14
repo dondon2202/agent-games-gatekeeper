@@ -2,12 +2,11 @@
   "name": "agent-games-gatekeeper",
   "version": "1.0.0",
   "description": "zkVerify Agent Games - Proof Gatekeeper agent scaffold",
-  "main": "src/index.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "start": "node src/index.js",
+    "start": "node scripts/serve-local.js",
     "test": "node --test --test-force-exit tests/*.test.js"
   },
   "keywords": [],

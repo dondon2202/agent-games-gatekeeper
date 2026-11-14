@@ -18,8 +18,8 @@
 
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { createServer } from "./server.js";
-import { resolveArtifactPaths } from "./artifacts.js";
+import { createServer } from "../src/server.js";
+import { resolveArtifactPaths } from "../src/artifacts.js";
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 
